@@ -1,11 +1,14 @@
 import React from "react";
 
 
-export default function Escena() {
+
+export default function Escena(props) {
 
     return (
-      
-        <h1>El nostre heroi estava surant per l'espai sideral quan a la llunyania va albirar una nau espacial</h1>
+
+        <h1> 
+             {props.frase} 
+        </h1>
 
     )
 
