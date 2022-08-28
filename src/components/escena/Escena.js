@@ -1,14 +1,14 @@
 import React from "react";
-
+import {Paragraph} from "./styled";
 
 
 export default function Escena(props) {
 
     return (
 
-        <h1> 
-             {props.frase} 
-        </h1>
+        <h3> 
+             <Paragraph> {props.frase} </Paragraph>
+        </h3>
 
     )
 

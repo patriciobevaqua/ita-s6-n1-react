@@ -13,7 +13,7 @@ function App() {
 
 
   return (
-    <div className="">
+    <div className="App">
       <header className="">
         <Escena
           frase={oraciones[0]}
